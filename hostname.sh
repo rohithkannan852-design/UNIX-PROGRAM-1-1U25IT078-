@@ -1,10 +1,10 @@
 #!/bin/bash
 
-echo "Current hostname:"
+echo 
 hostnamectl
 
-echo "Changing hostname to rvs..."
+echo 
 hostnamectl set-hostname rvs
 
-echo "Starting new Bash shell..."
+echo 
 exec bash
